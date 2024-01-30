@@ -47,6 +47,6 @@ async function StartLODCP (fullUrl, customDNSResolver, port) {
 };
 
 // Example usage:
-const TargetURL = 'https://example.com';
+const TargetURL = 'https://www.wmtw.com/nowcast/status';
 
 StartLODCP(TargetURL, '1.1.1.1', 7007).then(data => {console.log(data)}).catch();
